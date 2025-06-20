@@ -1,6 +1,6 @@
 <header class="border-b">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-blue-600">BharatPros</h1>
+        <h1 class="text-2xl font-bold text-blue-600">{{ $settings->app_name }}</h1>
         <nav class="flex items-center space-x-6">
             <a class="text-gray-600 hover:text-blue-600" href="#">Register as Service Provider</a>
             <a class="text-gray-600 hover:text-blue-600" href="#">My Services</a>

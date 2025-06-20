@@ -57,7 +57,7 @@
         <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
             <div class="md:w-1/2 mb-8 md:mb-0">
                 <h2 class="text-4xl font-bold mb-4">Start Selling Your Services !!</h2>
-                <p class="text-gray-600 mb-6">Become The Service Provider At BharatPros And Start Earning Online.
+                <p class="text-gray-600 mb-6">Become The Service Provider At {{ $settings->app_name }} And Start Earning Online.
                 </p>
                 <button
                     class="bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition duration-300">Join
