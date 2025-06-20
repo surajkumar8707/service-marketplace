@@ -103,18 +103,18 @@
     </div>
     <br>
     <div class="ml-20">
-        <a class="no-underline" href="/terms">
+        <a class="no-underline" href="#">
             <p class="text-white text-sm">Terms and Conditions</p>
         </a>
-        <a class="no-underline" href="/about-us">
+        <a class="no-underline" href="#">
             <p class="text-white text-sm">About Us</p>
         </a>
-        <a class="no-underline" href="/refund-policy">
+        <a class="no-underline" href="#">
             <p class="text-white text-sm">Refund Policy</p>
         </a>
     </div>
-    <br>
+    {{-- <br>
     <div class="container mx-auto px-4 text-center">
         <p>© 2023 BharatPros. All rights reserved.</p>
-    </div>
+    </div> --}}
 </footer>
