@@ -103,18 +103,14 @@
     </div>
     <br>
     <div class="ml-20">
-        <a class="no-underline" href="#">
+        <a class="no-underline" href="{{ route('front.terms.condition') }}">
             <p class="text-white text-sm">Terms and Conditions</p>
         </a>
-        <a class="no-underline" href="#">
+        <a class="no-underline" href="{{ route('front.about') }}">
             <p class="text-white text-sm">About Us</p>
         </a>
-        <a class="no-underline" href="#">
+        <a class="no-underline" href="{{ route('front.refund.policy') }}">
             <p class="text-white text-sm">Refund Policy</p>
         </a>
     </div>
-    {{-- <br>
-    <div class="container mx-auto px-4 text-center">
-        <p>© 2023 BharatPros. All rights reserved.</p>
-    </div> --}}
 </footer>

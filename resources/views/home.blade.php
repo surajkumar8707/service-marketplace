@@ -57,7 +57,8 @@
         <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
             <div class="md:w-1/2 mb-8 md:mb-0">
                 <h2 class="text-4xl font-bold mb-4">Start Selling Your Services !!</h2>
-                <p class="text-gray-600 mb-6">Become The Service Provider At {{ $settings->app_name }} And Start Earning Online.
+                <p class="text-gray-600 mb-6">Become The Service Provider At {{ $settings->app_name }} And Start Earning
+                    Online.
                 </p>
                 <button
                     class="bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition duration-300">Join
@@ -201,6 +202,284 @@
             </div>
         </div>
     </section>
+
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Construction, Home and Decors and Architects</h2>
+            <a class="text-blue-600 hover:text-blue-800 font-medium flex items-center" href="#">
+                View All <span class="material-icons text-sm ml-1">arrow_forward_ios</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Architects working on a blueprint" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh7mIti4J4E51lCLLpV4X5GXhJkujTps4E6HDCwOISua8T6YuxKhMQ3s0_L_XHHXulOtQt4BiostmS0VdXVPGMQ-nWSfMmCnGU4WjHdvBmkJKsGUnAp7tDau8nSWAY5ycmOAI52mF_5EJp0AI7s0W4ACSs99O0ssvTGFS0GOC-6ZB4gJ-_9uT_5IOjROif--PgNX078F7YhDcS_slA2ohQj7EPsF86jvAAHQroHtJEPKrmuaW_LUEKQPRb5DTTFCl-6rR70bUSsh0" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Architects</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Modern bedroom designed by an interior designer" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqb3rhkKrNfihvqHGtYWIbKbJkep1nKupVtAXgjwCf3YKxpKa4nxUMB4MBDUji_Fxa3aEReXZyFkSXdtV1pgS44DQ-ylyphIi5FvvnaTu95Hqt9Lr6afuadGdyekIEAZMnw4Bn5vJ1ac0kFCBImun9Z66Ys-kcBS9q1Pf-Gskm9NO-eVjcOtmHhoEcHLGCinmxCLuU3DmV1E6ttNzlQUe6V0lRjemnA-VfBdp1XXGn8AI-fhTj7m-JBCApW_BiMEurPX18UjEwAO4" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Interior Designer</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Sleek modular kitchen with blue cabinets" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa2_VQ63hkED8lCIMX9wyazN9Izo36AUhKY1xn6u-3IqQOIHxXgCuc4Ls2GpqAHuFWyGqq5IWwBFSh0apj3f1WMtdgAAsiGZ8XxM2xrhfM5Gto4ehzu8gyvtElQB2M_5DvF6A3BhCqXlhazcGhzAOxDFXI6XYnFC1LiOeinkKAMjGGNGBLS7zvs10QSQNSVFrELQH2WDbO7t7bH_M-yxvUWd4A3-VCYn_GdwwlaW33TkuOCOV1nbH8h0XX3njAIuCie8D_kXMdF14" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Modular Kitchen</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Construction worker performing core cutting on a wall" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm225MRaWUR4WKEz7e1ix1t-Vj3gBd5D0Xum-ikY2Hi52zZOt4cO-wmN5U7GrHRT_Eouo3N7YnDbckiZZqr6ph_sjDB8B8coLR3jaLYxK87G9uQpNRqD0blPreOIf-bvdBEN90fAbtWSPwD-NJ-g0DcvLEVWchKbEa3xm_qk8HdnyC1TxqIdvfsQpHmphP-rXRiQCAOcl4iHV6fBy3VDlda9n-oPRhv4yqQCb6IBiMq8qsHeNwIs9Uw1spqCuFPi4DEVqu4H4Orzk" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Core Cutting</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Intricately carved wooden door" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDA90xOyBc24QTc_2Zu3Mnm8kW3OonfWkoXTWX2MyD8kt7ZlJNeIvRaYeWqVMy0r5ZSRe-CDrTSTctq4NI4LizyKyyxDag36NyXCREVgOQLIeGi6x8I4S3ARShEBl6lqupXVtftuBG3gYP6xD-p2G6HexnsRArACLyO4xs-AKcZoAt6RQGQY_KQgZP-H_BdqgKT04Zyyh4FXDlZT7pEUK5jbKxyU4zX0YELmRaKYi5MI8piyIaEQvhNy5N2VeBhBx_9DnhH-jlHe44" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Wooden Door</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Wedding and Event Management</h2>
+            <a class="text-blue-600 hover:text-blue-800 font-medium flex items-center" href="#">
+                View All <span class="material-icons text-sm ml-1">arrow_forward_ios</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Photographer taking a picture in a city setting" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOuSDyVm5hDUXrMIGOZLNUNRVTyGPFECPVtclET1kgdBwz9VlduKEZIcJQ_UomcoFD-wJAw28lu-lAMaxZjIzkgpWMdnK-PmJlC0ieUsdKT0r5zErwqzHutyaL6-19swswIzgMCzMtaW7KEA57e7hBh6sLPFlxmpNxRyTxfrJnqNHcrxKShu5yCG6x2Jj3elRHts7x0sb1vssF9d8cSXo_1dPWcCHGS1uD8rZ06PwiAUDF6N2oBIsJsnftbB-SaUo5qC3sp5Ho6ZU" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Photographer</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Buffet of various catering dishes" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPOi6XLYOgcjxyUqz-4nrF5tjhrRef5zx1Ncs2YL0cqJAoMwJhpb8rNYxYtr7lxYrqUuxy8AiVJmWMKBF227Sz5yB-QmDNMZ1j595axgsW5y3oIWTNrIpMATzY5LSg3ejzpMd98D4oCXyw7Y1U9deZWczvJ8qGFcdE__QoStt8RuyUARJypGejUFvypLRW7jn8u54TxZfZgKiDG8zOqP7F7NOqTTO2oarojCW4i53sm6I44bQBXj35XryyJC7iY3LntMesj41fzCk" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Catering</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Party hall decorated with blue and white balloons" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6EtxpJfPIJiRqSsVVpBKbi2MHm1XDKK5mPsfkkOfeJs_uINxAs40roFV4HFal4_zaDBsmy33uVrT4BAXFC4eYI91evW0m5hYyzWcISKKPBo5rRR6tDoNm3MAe6pNxudS4oICYIyE3lhrW5W4UwiIzPz78kM4AaUezjPAN9QccjUMV4qGXLMAc-ToStvOdgway4xVepDrTsAityyJeTT2pvYBtHXfEoAVrBlto3rEmrImvzrNBrmamyDwzwib5NrcY9AfFF6aAe0I" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Party Hall</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Marriage palace decorated with pink lights and flowers" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqEu8ufqpqpA065pee3kybFLeU_YItzeNlOoeM_0g0VoM_q1CvMYqGeRFIJJsM4fL45OW8ZHu2yH21Dd14dUDfoUD3E8GxV5hhxsLXmHEXizhOsbRHGs2ilG9D9pokmwnGhI3aKNnTqIGptxw4LPDgBba3sWGRcUPL2m5gHYLpzoffERiAeRI7njyAW1DeQta1gxk18arsr4sjVoYHeVoq4HP7TXtzHk2k-zuMqo-TcSFXkNsEBAvvffOHDyt03mI8_Oslp8oeSss" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Marriage Palace</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Traditional Dham Boti dish with rice and curry" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXiC2FcDsDHaN7cZlvUZl5nTljDJ1G38X7oZosGAhHpwi0gprHSLvV5CfcJ_MGR3Bd-9QZfHqm9o8DlYiP-kgWmWFKfQfjaaZNnBinsppgiPpttdgFEF6cXuayGukZ9TaQUazChHtPTcbij2HCczN31NTRhMZw2-84Eg-DXP1cwhPPgAzYcICAVsI_qdVVekAj-iT5ES2VAl-lKm9uJGUn6GiDghEJdqabCwTSEc0WPOUXCzzbVqYtHgOPI7w_AlkVirx68ADz7Kw" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Dham Boti</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Cleaning Services</h2>
+            <a class="text-blue-600 hover:text-blue-800 font-medium flex items-center" href="#">
+                View All <span class="material-icons text-sm ml-1">arrow_forward_ios</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Person cleaning a sofa with a vacuum cleaner" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5MqbowC4ReNAjRVkhOGkkAT5NV2XLSRSs402JaHActoQO8v8sNIgeYS7FyRaeoJSM1WamaW3uZCFmP8pOlQvlNUV08xM87wmIk0lF4YZjaxgxptDZtbFCUjF7IWb0_qaPAbODHh2-1HKHYt1RxxEo-feiSz7xF4u5U3c2Xf0VzQaeXDrBoENObNvTmDtTa9GtTeXd2DIPG-GrbYoMvDSXVkmdmsO4z4MX2Z5znav_LlOXQnAgqNIvpviC_Nk_cWgD2K5bzi7yHwg" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Sofa and Carpet</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Person cleaning a large water tank" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuALFguofoR1yKdzF21bCN64Elpi6qy1XaptTNZ_DrJIHxTdjHFZjRYP9pRcqr2-3xDp7bKePo1FgYxDCTD1Fr9X7PAp86sQ-VCZhN_IV6T_AqPMJQlK0N8mesMvWKJTPUSO0jqqDCgc1Y7C-Z6_n1zGzKuBAapdinqRmPCTns4raUf7cBDQl88vHroomNA1o2NiYCpur4mTRtruGLNVBWp9nSq_wL4j5uCzRpCM3rVXxJO7RjaWKeFmU0FOqR0B8rgN_mV2JRgFfzk" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Water Tank Cleaning</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Cleaning professionals mopping a floor" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuDDkDB-3iHGRXnJXtV18xu14LrqmG1J9Q5zO6LGpDTuIzuMbNjW-tWlYDnEiV-go-0lGfT7dM6B2fHn7MNiYDHrTEh_bomA7senMGZ-WxqhSrND9PVZbZW121jiVdFaD6_0GZM7-Ecfz13erEBrnRTwGvU5lOLp_kpy_SJxjyLBMtcPFcwenJMY6U53Ur4Mg417id1DPwI0jWjjrp812h4FQzCZ7Kybftwa9p4DrTQacMIIjToItgPZVkT56gaKCZAUP33pGgkzI" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Home Cleaning</h3>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img alt="Person spraying pesticide on a porch" class="w-full h-48 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE0Vu51emWt7uHocS3PRhe2c-isu9gYsbI4qfo-Bp1OoI3-JL-qODIRvfwnab9vCdxNoTe5YWt-od_PbopaoWU7NnbkC52vKI_1giHtdABFq7-ObCS4zfGPghlhPqFJN4Rk5euTlJiFiDF-bDsysEaj1BKa8vepeXl7P4FtU4hGQQurJ_2hJMY0IJLo1orqhE8CT6_ni7fjdamwogKrCVL7tXxT18fqT6c5C4l5o6gEQKrkP8CWTqsGBZlRQLr_NBt2QdgPPDHins" />
+                <div class="p-4 bg-white">
+                    <h3 class="text-lg font-semibold text-gray-700 text-center">Pest Control</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Hospitality And Accomodation</h2>
+            <a class="text-sm text-blue-600 hover:text-blue-800" href="#">View All ++</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            <div class="flex flex-col items-center">
+                <img alt="Hotel building at night" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMtIiLIqJCO9W-Orcw2s_EKhw-J7JxFbaxEzZE0UIazRTGbgLHTR0TGPlhjFxvT-RqZ-JxPmF23Y0Cmt5dMGBXEAbz5phEHBs0QefUV2UuNYkLymjZVbdGUctiok-dpMacAuJZXi_rQbvvgDjBez5SjDlXQnbj28PIHfmjaVyKdkAun9mMlnDyplXDimrtUgOAVeFoTHJe0XfzVdShi6EfKyfF1jEdkqkpYhvgWkmBesG3TzrWCreMembxOyX8dQLX5883Wy0grsFV" />
+                <p class="text-gray-700 font-medium">Hotels</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Traditional homestay with blue roof" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL21xLTynUEhi3rYJKrZq9DrI-xk82lcQSVO9DtCtt9hq7Aup94e4ViMarxNllGvFfeWuB6aBqDT7HLiF-Q7NVuwrj508MuqPeQ8hxfF68WLYXnGon8OYta76VPqvFSQyBPs1AS7d633tJtyDehxa7m-YnwvyiGa384h824dKnYAmjot9Uo6yEf-AgiXBRa4Ghu53ecIdpcDhRGenW3Ph8tDj66okitBAXLQxf7o_sFN-IuQfNfv2H-eUezialf-y8mj1QuUoTm4pT" />
+                <p class="text-gray-700 font-medium">HomeStays</p>
+            </div>
+        </div>
+    </section>
+    <hr class="my-8 border-gray-200" />
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Food Dining Venues</h2>
+            <a class="text-sm text-blue-600 hover:text-blue-800" href="#">View All ++</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <div class="flex flex-col items-center">
+                <img alt="Interior of a cozy cafe" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9sfUoMdxu1TfauFbahtWL586VDFa787aS9Rnuj5C92lE9-4_AgXuqCh0RaG9p8adN1QjJQE0DCoNF48fv3pKKuXejsezkffs-i4oD1fBwz-fQx_l8U-e-BT16W6whyfDi07HzBX67biA0_9HWcIvB-FuO9fwzdImRFEOwEBEUUJRG9fstVocFj-8RUzss_H8O67UnW7uCZPbxt_CycuBC4pUE_tWRS9MxRVCNyWTSZW2s3dq11-XIfSR-nAfJie2K95WI58a_rV6t" />
+                <p class="text-gray-700 font-medium">Cafes</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Woman enjoying a meal at a restaurant"
+                    class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlQ5DY0_fqQk7JiRGbuVsNyMDQQUj26U1H_ZJky9_nFGyqH_5FLU5kNNJ9B4Ee_Rlg04JjNqwowCApA9tke0pWJy-616uWqNYXVw0ZfxeyVxOCLe1zOuKnrJponHv6CZ0abAkb01gGFds9l7VkMq328WCrzHOLDhzZ0cEVNavXz2imgTZAO_-mN9KP1aYuFZAvlfWPtiAn8npiqoE3_yrCHVU9E04DePYkrLrVbe4HvfD5pv84Fn0bCRtk1hI91An4pcl0BBcVoFYg" />
+                <p class="text-gray-700 font-medium">Restaurants</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Baker holding a tray of fresh bread" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqy91_THQJP0rpF8B5OgWGUAEGSRs2pgriEE1nDWCvF1YKSqo4sQmnOl_H5fEpIJsQXqlN1-tJrXAwB_5sm48rDBXRkm4WwnrD0XrriWTsSOAzyL90xFzhNGyK1kJDd_VVqk9ApDN1ob-eH9IW0C5fvoT-5sFlfP4BRBI-7noLv33hII-nRmIcBLFgNY8at1aiBgq0ykow35_fADnLgb7-TWQZnyt_El4a4lxu2UZOoc5Nv8bkRo-1QLdqhr_gQCcwJwru3E8IKllM" />
+                <p class="text-gray-700 font-medium">Bakers</p>
+            </div>
+        </div>
+    </section>
+    <hr class="my-8 border-gray-200" />
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Fitness and Fun Activities</h2>
+            <a class="text-sm text-blue-600 hover:text-blue-800" href="#">View All ++</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div class="flex flex-col items-center">
+                <img alt="People dancing in a studio" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNVWp_qX8H23sO0OVMUkJIuDmJSpdBtbZqzCaKMSwlQpDXBOWct3FCENZbnYma74RV9mh4XxoABo98e1ozmDghkbVHofG98ZiRoApMGYlKW4pQtZFzeT8aIrrI4XULm1J20PIirY98XaUy6Hss92AuN81DbQ0hcHwfI-ujyehF-am94zZs5Fvc6TRFM1un-waKVOH40tZ7i4pIoCNPcLK5y0rm6I97UAuaDpzuL2Yp8SXfc7pQbtpg93-CDijXl5yUAupnrTudVrHO" />
+                <p class="text-gray-700 font-medium">Dance Studios</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Indoor swimming pool with glass walls"
+                    class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWXBhvZRKp2HoZMjfG5okrJMB1gTdQ8SvC5rCyKJ_q8zaEQRark3qbiSUla_KclXTI_90Z9qbOHDUuSTOQFto6Pze5C6Dcx52G6gZvRMMOASUeKi0iS0Fm4x9nd3c0F2P-qgQE-JxQA6oC4gyCW6HbrrfT9s_nySyWUW3YO4XiJjk5D_tss8h0uU8-eltLUmG5T_yTLuyPo0OMHDXlC1Bo2sX_AcHo99sfsmELEI2Gn4vWEiGknrWHUCkEs6q5kQsECdvbK0K_jwsJ" />
+                <p class="text-gray-700 font-medium">Swimming Pools</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Woman doing aerial pilates" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4RO0tHMj7Md1EYGsqkV5_u7YPaNODnz_qCQvsDz9Qk9Wy3Vn2Y8JBF4H8vjTAZJA8k6LeSN2v9TtfRcn1WfyFlPoVOlZOYhbMQGzl3O8f-2QNzm9Nsg3H0RbBcco3BcR5XP9kcp9dXDe6SHwHUSHxOu9LucxRt2gf8J9yGg47Zx8PsCrPKV0LyrkbV1eSI61OpVzdgw0n1ne90EC6vbOn8KHfhhWv7-59K15axxRSD1EYRnD6oOx77l2Ks7bMkRRMQ1NkQXfzNF7z" />
+                <p class="text-gray-700 font-medium">Pilates Studios</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Interior of a modern gym" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtK5SCsMokIhSgvk3pjB5e8e0UjqHAVCaGmziXSLZYy8vmIfh3BZ1FoE5qxRsK7aW-uzwjzgzd1pyy8-F0eQ6VCKH-zhZ4nNc_61HqYz-J07YlySjNf7DqtsCs34QbDqUa2l4BQnHVIO7hxC-iEcWgYr6fVQ2QnH2y7LTP5aZJwqryr4GgxaOkWQw2bi3MrXuhtsW_71LD4imZyYVL2T8mlBR2vEu1PnBE3mFIm84H1fyYV-a2YpKoRqHh4qVeBY1gnrWIpcuU0fHD" />
+                <p class="text-gray-700 font-medium">Gyms</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Bright and airy yoga studio" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ07ThzHcOQU1-rcg0BwB5U_1Jh_z3wOIf11POJ4ODdygO9ZOuB9tomqF8QWSw5xLiZ0sZ_tJyWZlOkbPYaPBBsBm-IDQkSIYkaL1cKYNZd35U0LUPhkUHwBumHflBdO9WUxvI071ubUP4V0vI-G_ohJygQtDkOASIPMW_zuZWTsBqKndlZ_1FMqceS0GHW1psbpVtZoQ9qiHE0zmYgtc8HQjA-JdqwvfYuoHnR1i9qn0qXEpNDDdqYLD8S0Dc8_N5EIMRpp9ST_7M" />
+                <p class="text-gray-700 font-medium">Yoga Studios</p>
+            </div>
+        </div>
+    </section>
+    <hr class="my-8 border-gray-200" />
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Legal, Compliance and Accounting</h2>
+            <a class="text-sm text-blue-600 hover:text-blue-800" href="#">View All ++</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            <div class="flex flex-col items-center">
+                <div class="w-full h-40 bg-gray-100 rounded-lg shadow-md mb-2 flex items-center justify-center">
+                    <img alt="CA India logo" class="h-20 object-contain"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8OH-ChbLhGCvKe8AqndFkdtWfgUZo8O19ZTc-hB5kroGmdB8De1wU6LQjoSngEz4mZCEJJNnZ2Ak1n8PYRGtJARLnzKEI_VosR8GkozKkl5UkO2PLbC0RIkIFFbgaYrcsaVFtC14tNzH2HCxpimmEus7M8P_WYJwKBBx6CYqdK-zWgsAbhIiBHYJj9xd5iS4Fu14VOD77R9xONYHSqPDlO20scjm0dwFmIG-M4NLqN2A87uzzmN8t5c8vtehMD26FHiKwWrsvQw36" />
+                </div>
+                <p class="text-gray-700 font-medium">CA</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-full h-40 bg-gray-100 rounded-lg shadow-md mb-2 flex items-center justify-center">
+                    <span class="material-icons text-6xl text-gray-700">person</span>
+                </div>
+                <p class="text-gray-700 font-medium">Advocates</p>
+            </div>
+        </div>
+    </section>
+    <hr class="my-8 border-gray-200" />
+    <section class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Real Estate Consultants</h2>
+            <a class="text-sm text-blue-600 hover:text-blue-800" href="#">View All ++</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            <div class="flex flex-col items-center">
+                <img alt="Real estate broker meeting with clients"
+                    class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAysAiwxtBtxGZh7Xmus3EBcrjNQOvD_vVELfJFYWK91-R0lkX7vQOZv0nhe7IPm3xK6EVctqNpKxpTK6lcjS_0TbdOnZuXmUaVhoSBesm2ziQGY4tE95a0a7XZs5_u8uICfXiZEkL6hNVGYMzMc7M-IoSTrtKkxmqXMIGw12aqnOgWhQchDMpoZIgM5FLJhUxmkCPdzZ__ESYbLwyAorvrh_eTwWy2CykYy2yn5rPlLZrdgieCCyOwiLSD7JL-wIYl13wKkDLubwd" />
+                <p class="text-gray-700 font-medium">Rental Brokers</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Illustration of property dealers with a house model"
+                    class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE_w-PBlMnQ3gzf_0VpJE0Cl4ByHOybULcCgH5l_26NZrDr4WVoAECP5evjumr26E5GqvWcSufdDJqWE26onGu1h05i2dR1LWW6ahGOdEEb_PqnixCOHE06Y_SPrQL7t2hB2jAHCQBDISvVWzIFe8pcOAs3aTpwFPVdSpYhQV2CTEcbyoEL68GIUJgysYK054fx7ZbLmoS3meiB0hMJrpN06wN4szId5qiJpynhHlFinBNpxW5Xr0uprNIDaALfppvXRZhXjz5vNZs" />
+                <p class="text-gray-700 font-medium">Property Dealers</p>
+            </div>
+        </div>
+    </section>
+    <hr class="my-8 border-gray-200" />
+    <section>
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800">Pandit &amp; Astrologer Services</h2>
+            <a class="text-sm text-blue-600 hover:text-blue-800" href="#">View All ++</a>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <div class="flex flex-col items-center">
+                <img alt="Hindu priest performing a puja ceremony"
+                    class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMIlB4rDoLXu6uVk7B2Fpc8avO414jzZevN4dt5deOK4DysC0gp6HZ7X6TwrragVJC8Xnqifq1VhMYE7FIVWn8sAA_x1dEtoipO8_a50BKa-KkCmrNs-6vfl9OfgMZ2rWXrClpJB1o72fdiEQrtgi-tTVHQsxcN0X6MTto2GFyJm72q8pw7DZo-viELYpsMQZQrgZNQPNeQcKxGqkKWtTStjRkXZ8qhf-W0DIZp9NJtdie1VrZ2l0w26alC5Gc6wlBTQrBRsbbg3MH" />
+                <p class="text-gray-700 font-medium">Pandit for Puja</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Astrology chart and tools for consultation"
+                    class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHkAb-Uo99DhueOMByT_CX6iMYPLekpyWUHd86aM7rnE97J0O3eC-k7OJuTETcbqRzEFfl0hG6IplskGs0IumiiMsXQUd8z9NJKOrOplz4i4nbwh4h_SgZJslu0pN1qxDyxeHggG1mpC7uQ0GzCSH1clf8vHMw1vBlPKR15VlmB-WtY3E0sjMprVBnHb0ZRhG84owqq2p2cp_19DxQyE9lX60EBEJ8-5mUImFyPgvGvG-yOfGCxMT1CHeKPpUxwqOZ4jEZ0QOyPDTt" />
+                <p class="text-gray-700 font-medium">Astrology Consultation</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img alt="Vastu Shastra yantra diagram" class="w-full h-40 object-cover rounded-lg shadow-md mb-2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLv-WzwABylqBWOaudCrO1SXbg2Vc7OWIUnDpOkbcfZjFNg4mZ10h2lXtxrQZuX7SNaod65w3WxMgO6ogUQZUJNdHI9Do1ed0lNem3FCdCWebo5uXMRnnC-N-h_s88rwRKwkCy-FJk2dXf1sqOV_aH9SHX85_O3rkCPjoo04TtZf6bDKO_hTOong16LDXLIMn1GV7IXS37SGM1qjCMByqHBfDLVMLzm6UW23lfExpg6s9qJq5sZqZPQcg7_qEQyLpmEnUym7WlFHkR" />
+                <p class="text-gray-700 font-medium">Vastu Consultation</p>
+            </div>
+        </div>
+    </section>
+
 @endsection
 
 @push('scripts')
